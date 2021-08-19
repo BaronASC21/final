@@ -1,0 +1,47 @@
+#nav_bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-family: Helvetica;  	
+    background-color: gold; 
+    color: whitesmoke; 	
+    font-size: 32px;	
+    padding: 5px;  	
+}	
+
+#donate_list {
+    display: flex;
+    justify-content: space-around;
+    outline-style: dashed;
+    outline-color: gold;
+    align-items: center;
+}
+
+#article_list {
+    display: flex;
+    justify-content: space-around;
+    outline-style: dashed;
+    outline-color: gold;
+    align-items: center;
+}
+
+#story_div {
+    display: flex;
+    justify-content: space-around;
+    font-family: Helvetica;
+    align-items: center;
+    outline-style: dashed;
+    outline-color: gold;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+img {
+    width: 60px;
+}
+
+.items:hover {
+    background-color: gray;
+    opacity: 0.5;
+}
